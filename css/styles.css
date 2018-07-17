@@ -323,7 +323,7 @@ header .row:nth-child(2){
 
 /********adv********/
 .advSection{
-  padding: 110px;
+  padding: 110px 0;
   background-image: url(../img/advbg.jpg);
   background-position: right center;
   -webkit-background-size: auto 100%;
@@ -884,3 +884,78 @@ header .row:nth-child(2){
   	left: 2px;
   	border-radius: 2px;
   }
+
+
+
+
+
+
+
+
+
+
+/********adaptive********/
+@media(max-width:1199px){
+  .investSection__text span{
+    font-size: 48px;
+  }
+  .investSection__text{
+    font-size: 22px;
+  }
+  .investTerm{
+    font-size: 20px;
+  }
+  .investSection{
+    padding: 80px 0;
+  }
+  .formatsSection{
+    padding: 80px 0;
+  }
+  .formatsSection .row{
+    padding: 25px;
+  }
+  .advSection{
+    padding: 80px 0;
+    background:none;
+  }
+  .franchAdvHeadSection{
+    padding: 80px 0;
+  }
+  .adv1Section img{
+    max-width: 100%;
+  }
+  .adv1Section h3{
+    font-size: 24px;
+  }
+  .advSection__headingText{
+    font-size: 18px;
+  }
+  .advSection__text{
+    font-size: 14px;
+  }
+  .adv1Section, .adv3Section, .adv2Section, .adv4Section, .documentsSection, .businessSection, .formSection{
+    padding: 80px 0;
+  }
+  .aboutDescr p{
+    font-size: 18px;
+  }
+  .aboutSection hr{
+    margin: 20px 0;
+  }
+  .aboutNumbers{
+    text-align: center;
+  }
+  .aboutNumbers p span{
+    font-size: 60px;
+  }
+  .aboutSection h3{
+    margin: 40px 0;
+  }
+  .businessSection img{
+    max-width: 100%;
+  }
+  .businessSection p{
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
