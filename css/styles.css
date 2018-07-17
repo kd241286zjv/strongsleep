@@ -1010,3 +1010,121 @@ header .row:nth-child(2){
     margin-bottom: 60px;
   }
 }
+@media(max-width:767px){
+  section{
+    padding: 20px 15px!important;
+  }
+  header{
+    padding: 0 15px;
+  }
+  header .row:first-child{
+    padding: 10px 0;
+  }
+  .mainScr__header{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .mainScr__preHeader{
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .mainScr__subHeader{
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .mainScr_btn{
+    padding: 10px 25px;
+  }
+  .header__callback{
+    padding: 6px 14px;
+  }
+  .scrolldown{
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+  .investSection{
+    background: none;
+  }
+  .investSection .row > div:first-child{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #1e3a8b;
+  }
+  .investSection__text span{
+    margin-bottom: 10px;
+  }
+  .investTerm{
+    font-size: 16px;
+  }
+  .investTerm span{
+    font-size: 18px;
+  }
+  .requestBtn{
+    font-size: 14px;
+  }
+  .adv__header{
+    font-size: 15px;
+  }
+  .adv__text{
+    font-size: 13px;
+  }
+  .adv{
+    margin-bottom: 15px;
+  }
+  .franchAdvHeadSection h2{
+    font-size: 32px;
+  }
+  .franchAdvHeadSection p{
+    font-size: 18px;
+  }
+  .adv3Section__header{
+    font-size: 15px;
+  }
+  .adv3Section__text{
+    font-size: 13px;
+  }
+  .aboutSection img{
+    width: 50%;
+  }
+  .aboutSection__header{
+    font-size: 35px;
+  }
+  .aboutDescr p{
+    font-size: 16px;
+  }
+  .aboutSection h3{
+    font-size: 32px;
+  }
+  .feedback__name{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .feedbackRating__shortFeedback, .feedbackRating__delivery{
+    font-size: 12px;
+  }
+  .feedbackBody{
+    font-size: 12px;
+  }
+  .feedback-swiper-container{
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .documentsSection h3{
+    font-size: 30px;
+  }
+  .businessSection h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .formSection h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .callback__header, .form__header{
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .businessSection p{
+    font-size: 12px;
+  }
+}
