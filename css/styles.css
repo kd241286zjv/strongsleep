@@ -975,7 +975,9 @@ header .row:nth-child(2){
 .aboutNumbers{
   text-align: center;
 }
-
+.mobileContacts{
+  display: none;
+}
 
 
 
@@ -1468,5 +1470,165 @@ header .row:nth-child(2){
     font-size: 16px;
     left: -27px;
     top: -2px;
+  }
+  .mobileContacts{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .mobileContacts > a{
+    height: 50px;
+    width: 50%;
+    background-color: #fff;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    position: relative;
+  }
+  .mobileContacts > a:first-child:after{
+    position: absolute;
+    display: block;
+    content:'';
+    width:1px;
+    height: 40px;
+    top:calc(50% - 20px);
+    right: 0;
+    background-color: #d2d7e8;
+  }
+  .fixedCallback{
+    background-image: url(../img/phoneBlue.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .fixedCallback:hover{
+    background-image: url(../img/phoneWhite.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #1e3a8b;
+  }
+  .fixedMessage{
+    background-image: url(../img/messageBlue.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .fixedMessage:hover{
+    background-image: url(../img/messageWhite.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #1e3a8b;
+  }
+}
+
+
+
+
+
+/********modals********/
+
+.modal-body form{
+  width: 320px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.modal-body form > *{
+  width: 100%;
+}
+.modal-body form input[type="text"]{
+  height: 50px;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  border: none;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.modal-body form textarea{
+  height: 80px;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  border: none;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.modal-body form input[type="submit"]{
+  color: #fff;
+  height: 60px;
+  font-size: 18px;
+  background-color: #1e3a8b;
+  border-radius: 3px;
+  border: 2px solid #fff;
+  cursor:pointer;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+.modal-body form input[type="submit"]:hover{
+  color: #1e3a8b;
+  background-color: #fff;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+.modal-content{
+  background-color: #1e3a8b;
+}
+.modal-body .checkbox-custom, .modal-body .label{
+  margin-bottom: 40px;
+}
+.modal-content{
+  margin-top: 10%;
+  padding: 20px 0;
+}
+.modal-title{
+  font-size: 38px;
+  text-align: center;
+  font-weight: 400;
+  width: 100%;
+}
+.modal-header{
+  border: none;
+}
+.close{
+  position: absolute;
+  left: calc(50% - 19px);
+  top: -50px;
+  padding: 0!important;
+}
+
+
+
+
+
+@media(max-width: 575px){
+  .modal-body form{
+    width: 100%;
+  }
+  .modal-title{
+    font-size: 30px;
+  }
+  .modal-header{
+    padding: 0;
+  }
+  .modal-body .checkbox-custom, .modal-body .label{
+    margin-bottom: 10px;
+  }
+  .close{
+    top: -30px;
+  }
+  .modal-content{
+    margin-top: 50px;
   }
 }
