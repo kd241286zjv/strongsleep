@@ -959,3 +959,54 @@ header .row:nth-child(2){
     margin-bottom: 10px;
   }
 }
+@media(max-width:991px){
+  .mainScr__header{
+    font-size: 45px;
+  }
+  .mainScr__subHeader{
+    font-size: 20px;
+  }
+  section{
+    padding: 40px 0!important;
+  }
+  .investSection__text span{
+    font-size: 40px;
+  }
+  .investSection__text:nth-child(2) span{
+    font-size: 32px;
+  }
+  .investSection__text{
+    font-size: 20px;
+  }
+  .investTerm{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .advSection__header{
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+  }
+  .adv{
+    padding-right: 20px;
+  }
+  .adv3Section__column{
+    padding-right: 3%;
+  }
+  .adv4Section ul li{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .aboutSection img{
+    margin-bottom: 20px;
+  }
+  .businessSection img{
+    margin-top: 20px;
+  }
+  .callback__text, .callback__phone{
+    margin-bottom: 30px;
+  }
+  .formColumn{
+    margin-bottom: 60px;
+  }
+}
