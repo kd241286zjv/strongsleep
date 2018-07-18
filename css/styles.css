@@ -324,7 +324,7 @@ header .row:nth-child(2){
 /********adv********/
 .advSection{
   padding: 110px 0;
-  background-image: url(../img/advbg.jpg);
+  background-image: url(../img/advBg.jpg);
   background-position: right center;
   -webkit-background-size: auto 100%;
   background-size: auto 100%;
@@ -1275,6 +1275,7 @@ header .row:nth-child(2){
   }
   header .row:nth-child(2){
     margin-bottom: 30px;
+    height: 75vh;
   }
   .investSection{
     padding: 0!important;
@@ -1468,8 +1469,11 @@ header .row:nth-child(2){
     height: 25px;
     line-height: 25px;
     font-size: 16px;
-    left: -27px;
+    left: 0;
     top: -2px;
+  }
+  .adv1Section h3, .adv2Section h3, .adv3Section h3, .adv4Section h3, .adv4Section .col-xl-6:first-child h3, .adv4Section .col-xl-6:nth-child(2) h3{
+    padding-left: 40px;
   }
   .mobileContacts{
     display: -webkit-flex;
@@ -1523,6 +1527,22 @@ header .row:nth-child(2){
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #1e3a8b;
+  }
+  .adv3Section__columns{
+    padding: 0 15px;
+  }
+  .adv3Section h3, .adv4Section h3{
+    margin-left: 0;
+  }
+  .aboutSection__header{
+    padding: 0 15px;
+  }
+  .feedbackBody{
+    font-size: 14px;
+  }
+  .yaMLink{
+    width: 100%;
+    display: block;
   }
 }
 
