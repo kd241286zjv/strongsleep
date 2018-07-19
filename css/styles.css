@@ -32,6 +32,11 @@ header .container{
   flex-direction: column;
   justify-content: space-between;
 }
+button{
+  background-color: transparent;
+  cursor:pointer;
+  outline:none;
+}
 .header__callback{
   font-size: 14px;
   font-weight: 400;
@@ -1576,7 +1581,7 @@ header .row:nth-child(2){
     left: 0;
     width: 100%;
   }
-  .mobileContacts > a{
+  .mobileContacts > button{
     height: 50px;
     width: 50%;
     background-color: #fff;
@@ -1587,8 +1592,9 @@ header .row:nth-child(2){
     -ms-align-items: center;
     align-items: center;
     position: relative;
+    border:none;
   }
-  .mobileContacts > a:first-child:after{
+  .mobileContacts > button:first-child:after{
     position: absolute;
     display: block;
     content:'';
